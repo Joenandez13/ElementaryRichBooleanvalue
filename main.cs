@@ -51,6 +51,7 @@ class Program
                 highestSalespersonIndex = i;
             }
         }
+      
 
         Console.WriteLine($"Grand total: {grandTotal:C}");
         Console.WriteLine($"Salesperson with the highest total: {salespersonNames[highestSalespersonIndex]}");
